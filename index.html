@@ -11,7 +11,7 @@
 
 <body>
 
-    <body class="content">
+    <div class="content">
 
         <section class="header">
 
@@ -26,57 +26,55 @@
             <div class="shadow-background">
 
                 <span class="logo"><img src="images/odin-lined.png" alt="Odin Logo">ODIN</span>
+
             </div>
 
         </section>
 
         <section class="form">
 
-            <form action="#" method="post">
+            <p class="form-heading">Let's do this!</p>
 
-                <p>Let's do this!</p>
+            <form action="#" method="get">
 
-                <div class="form-container">
-
+                <section class="first-name">
                     <label for="first-name">First Name</label>
-                    <input type="text" id="first-name" name="name">
+                    <input type="text" name="name" id="first-name">
+                </section>
 
+                <section class="last-name">
                     <label for="last-name">Last Name</label>
-                    <input type="text" id="last-name" name="name">
-
+                    <input type="text" name="name" id="last-name">
+                </section>
+                <section class="email">
                     <label for="email">Email</label>
-                    <input type="email" id="email" name="email">
-
+                    <input type="email" name="email" id="email">
+                </section>
+                <section class="phone-number">
                     <label for="phone-number">Phone Number</label>
-                    <input type="text" name="phone-number" id="phone-number">
-
+                    <input type="text" name="number" id="phone-number">
+                </section>
+                <section class="password">
                     <label for="password">Password</label>
-                    <input type="text" name="password" id="password">
-
+                    <input type="text" name="name" id="password">
+                </section>
+                <section class="confirm-password">
                     <label for="confirm-password">Confirm Password</label>
-                    <input type="text" name="confirm-password" id="confirm-password">
-
-                </div>
+                    <input type="text" name="name" id="confirm-password">
+                </section>
+                <section class="create-account">
+                    <button>Create Account</button>
+                    <p class="log-in">Already have an account?<span class="log-in"><a href="#"> Log in</a></span></p>
+                </section>
 
             </form>
 
         </section>
 
-        <section class="footer">
+    </div>
 
-            <div class="account-container">
+    <script src="index.js"></script>
 
-                <button type="submit">Create Account</button>
-                <p class="log-in">Already have an account?<a href="#"> Log in</a></p>
-
-            </div>
-
-        </section>
-
-        </div>
-
-        <script src="index.js"></script>
-
-    </body>
+</body>
 
 </html>
